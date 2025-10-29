@@ -1,6 +1,6 @@
 # Selection (Spring Boot)
 
-A Spring Boot 3.3.x project for managing students, courses, and selection history.
+Developed a scalable course selection and management system using Spring Boot, MyBatis, and MySQL. The application supports efficient student–course registration, prerequisite validation, and administrative control over enrollment workflows. It leverages a layered architecture (Controller–Service–Mapper) with centralized exception handling, database caching, and RESTful APIs for easy frontend integration. The system was designed for high concurrency, data consistency, and maintainability, reflecting production-grade software engineering practices.
 
 ## Quick start
 
