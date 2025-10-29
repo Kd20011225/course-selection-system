@@ -38,10 +38,6 @@ mvn clean package
 java -jar target/selection-*.jar
 ```
 
-### Notable fixes in this commit
-- **Fixed** `StudentsMapper.updateStudent` SQL to update all columns without truncation.
-- **Secured** `application.properties` by parameterizing DB credentials; added `.env.example`.
-
 ## API (selected)
 - `GET /students` — list students
 - `GET /students/{id}` — student by ID
